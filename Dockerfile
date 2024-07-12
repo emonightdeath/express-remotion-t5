@@ -13,6 +13,9 @@ COPY package.json package*.json yarn.lock* pnpm-lock.yaml* bun.lockb* tsconfig.j
 # If you have a public folder, copy it to the working directory
 COPY public ./public
 
+# Copy views folder
+COPY views ./views
+
 # Copy the application source code (assuming it's in a 'src' directory)
 COPY src ./src
 
