@@ -42,6 +42,10 @@ app.get('/', async (req, res) => {
   res.render('init')
 })
 
+app.post('/', (res, req) => {
+  return {test: "test"}
+})
+
 // Route to trigger video generation
 app.get('/generate-video', async (req, res) => {
   const inputProps = {
