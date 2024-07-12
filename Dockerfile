@@ -26,4 +26,4 @@ COPY render.mjs .
 EXPOSE 8080
 
 # Command to run your application (adjust the command based on how you start your application)
-CMD ["node", "render.mjs"]
+CMD ["node", "app.js"]
