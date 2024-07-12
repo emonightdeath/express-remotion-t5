@@ -20,7 +20,7 @@ COPY src ./src
 RUN npm install
 
 # Copy your specific render script to the working directory
-COPY render.mjs .
+COPY app.js .
 
 # Expose the port if your application needs to listen on a specific port (adjust as necessary)
 EXPOSE 8080
