@@ -1,0 +1,12 @@
+7/15/24
+We're going to merge the two sides of the project into a fully backend application. It's much easier this way, a front end app would be nice to store on IBM cloud, but if I'm going to be the only one using it, why should I care if its only operable by backend? 
+The creation of the video from the template was completed at work on Friday, but the function runs on an http request (see app.js in main directory). This weekend's work turned it into a backend-only authenticator that works really well. 
+The files that need to be on the main folder:
+  1. Authenticate - Authenticates google very quickly. Just run $ node "1. Authenticate" and immediately be provided a authenticator link. The only front-end side just parses the token from the redirect and gives an easy 'copy' button.
+  2. Create - Needs to consolidate with the create function I have from http request on this main folder's app.js
+  3. Post - Posts to youtube. If already authenticated, immediate post happens when you enter the google drive ID of the video to be posted
+
+TO WORK ON:
+  - Use a google sheet to track videos in a video bank, and then post them. Start with just one account for now
+  - New keyboard SVG that matches the iphone svg. 
+  - Pokemon template could be cool, but stick with type speed test for now.
